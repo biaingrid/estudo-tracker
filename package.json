@@ -2,10 +2,10 @@
   "name": "estudo-tracker",
   "version": "1.0.0",
   "private": true,
-  "type": "commonjs",
+  "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node node_modules/vite/bin/vite.js build",
+    "build": "npx vite build"
     "preview": "vite preview"
   },
   "dependencies": {
